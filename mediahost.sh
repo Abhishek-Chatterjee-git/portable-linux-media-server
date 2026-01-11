@@ -4,7 +4,7 @@ INTERFACE="wlan0"
 GATEWAY_IP="192.168.1.1/24"
 CONF_PATH="/etc/hostapd/hostapd.conf"
 DNS_CONF="/etc/dnsmasq_media.conf"
-MEDIA_DIR="/home/abhishek/Pictures"
+MEDIA_DIR="/home/user/videos"
 
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
