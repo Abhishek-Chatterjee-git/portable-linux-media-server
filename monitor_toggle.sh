@@ -1,7 +1,7 @@
 #!/bin/bash
-INTERFACE="wlan1"
-BSSID="ac:50:de:d5:87:8d" 
-CHANNEL="6"
+INTERFACE="ADAPTER_INTERFACE_{wlan0,wlan1,..}"
+BSSID="ACCESS_POINT_MAC_ADDRESS" 
+CHANNEL="CHANNEL_FROM_HOSTAPD.CONF"
 
 if [ "$1" == "on" ]; then
     echo "[+] Preparing Fuzzer Interface..."
